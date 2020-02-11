@@ -14,6 +14,7 @@ def read_root():
 async def getUsuarios():
     u = Usuario()
     users = list(u.getUsuarios())
+    print(users)
     return json.loads(json.dumps(users, default=json_util.default))
 
 if __name__ == '__main__':
