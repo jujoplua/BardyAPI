@@ -1,1 +1,0 @@
-from .usuarioModel import Usuario

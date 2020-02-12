@@ -4,7 +4,8 @@ from pymongo import MongoClient
 class Database:
 
     def __init__(self) -> object:
-        MONGO_URI = 'mongodb://admin:admin@localhost:27017/bardy'
+        #MONGO_URI = 'mongodb://admin:admin@localhost:27017/bardy'
+        MONGO_URI = 'mongodb+srv://admin:admin@bardycluster-b2l7z.mongodb.net/bardy'
         self._url = MONGO_URI
         self._client = MongoClient(self._url);
         self.__database = 'bardy'
