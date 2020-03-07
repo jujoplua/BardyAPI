@@ -35,6 +35,6 @@ async def crearUsuario(u: Usuario):
 
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run('main:app', host='192.168.1.11', port=8000, workers=2, reload=True)
+    uvicorn.run('main:app', host='192.168.1.12', port=8000, workers=2, reload=True)
 
 
